@@ -1,2 +1,14 @@
-# First
-To commemorate my first time
+# 1. 
+首先下载所需的AVA数据集，链接在***数据集下载链接.txt***中
+# 2.
+下载训练的脚本和依赖的库(kutils)，链接在***GPU训练脚本.txt***中
+# 3.
+把数据集放到训练脚本的路径下，名称为images，替换即可。
+# 4.
+更改.ipynb为.py文件，并且用pycharm把源代码（是python2编写的）改为python3的代码
+# 5.
+把文件布置到服务器上，并且根据服务器上的路径，对需要执行的文件的root_path进行相应的修改
+# 6 
+按照requirement中所需库的要求，搭建合适的anaconda下的运行环境，***requirements.txt***
+# 6.
+按照命令依次执行相应的文件，命令在***GPU训练脚本.txt***中
